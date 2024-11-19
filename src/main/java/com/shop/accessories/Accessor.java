@@ -2,8 +2,8 @@
 package com.shop.accessories;
 
 public class Accessor {
-    public String name;
-    public int price;
+    private String name;
+    private int price;
     public Accessor(String name, int price){
         this.name = name;
         this.price = price;

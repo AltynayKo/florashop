@@ -5,12 +5,12 @@ import com.shop.flowers.BaseFlower;
 import java.util.List;
 
 public class Bouquet implements Comparable<Bouquet>{
-    String name;
-    List<BaseFlower> flowers;
-    List<Accessor> accessors;
-    int flowersAmount;
-    int bouquetPrice;
-    int bouquetLength;
+    private String name;
+    private List<BaseFlower> flowers;
+    private List<Accessor> accessors;
+    private int flowersAmount;
+    private int bouquetPrice;
+    private int bouquetLength;
 
     Bouquet(String name, int flowersAmount, List<BaseFlower> flowers, List<Accessor> accessors, int bouquetPrice, int bouquetLength) {
         this.name = name;
@@ -25,7 +25,7 @@ public class Bouquet implements Comparable<Bouquet>{
         return bouquetPrice;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 

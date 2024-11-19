@@ -95,6 +95,6 @@ public class NewBouquet implements Comparator<Bouquet> {
 
     @Override
     public int compare(Bouquet o1, Bouquet o2) {
-        return o1.bouquetPrice - o2.bouquetPrice;
+        return o1.getBouquetPrice() - o2.getBouquetPrice();
     }
 }

@@ -5,9 +5,9 @@ Base flower is parent class for all other flowers
 package com.shop.flowers;
 
 public class BaseFlower {
-    String name;
-    int length;
-    int price;
+    private String name;
+    private int length;
+    private int price;
     public BaseFlower(String name, int length, int price) {
         this.name = name;
         this.length = length;
